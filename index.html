@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,user-scalable=0"/>
+        <link href="css/style.css" rel="stylesheet"/>
+        <script type="text/javascript">
+            window.onload = function(){
+               document.querySelector(".menuMobile").addEventListener("click", function(){
+                    if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                        document.querySelector(".menu nav ul").style.display = 'none';
+                    } else {
+                        document.querySelector(".menu nav ul").style.display = 'flex';
+                    }         
+               });
+            };
+        </script>
+        <title>MediCenter</title>
+    </head>
+    <body>
+        <!-- Menu da Página-->
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href=""><img src="../imagens/logo.png" title="logo" alt="logo"/></a>
+                </div>
+                <div class="menu">
+                    <nav>
+                        <div class="menuMobile">
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                        </div>
+                        <ul>
+                            <li class="active"><a href="">HOME</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Pages</a></li>
+                            <li><a href="">Departamentos</a></li>
+                            <li><a href="">Contato</a></li>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--Primeira sessão-->
+        <section id="banner">
+            <div class="container column">
+                <div class="banner_headline">
+                    <h1>Experiência de alto nível</h1>
+                    <h2>Essa profissão é cheia de cuidado, amor e generosidade. Por isso, deve ser honrada!</h2>
+                </div>
+                <div class="banner_options">
+                    <div class="banner1">
+                        <div class="banner_title">Caso de emergência</div>
+                        <div class="banner_desc"><p>Se você precisar de um médico urgentemente fora do horário de atendimento do centro médico, ligue para o número de consulta de emergência do serviço de emergência.</p></div>
+                        <a href="">Leia mais →</a>
+                    </div>
+                    <div class="banner2">
+                        <div class="banner_title">Horários médicos</div>
+                        <div class="banner_desc"><p>Aqui no medicenter, temos listas de médicos individuais. Clique em ler mais abaixo para ver os serviços e o calendário atual de nossos médicos.</p></div>
+                        <a href="">Leia mais →</a>
+                    </div>
+                    <div class="banner3">
+                        <div class="banner_title">Horário de Funcionamento</div>
+                        <div class="time_table"></div>
+                            <div class="opening_hours">
+                                <div class="days">Segunda - Sexta-Feira</div>
+                                <div class="hours">8.00 - 17.00</div>
+                            </div>
+                            <div class="opening_hours">
+                                <div class="days">Sábado</div>
+                                <div class="hours">9.30 - 17.30</div>
+                            </div>
+                            <div class="opening_hours">
+                                <div class="days">Domingo</div>
+                                <div class="hours">9.30 - 15.00</div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Segunda Sessão -->
+        <section id="geral">
+            <div class="container">
+                <section>
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Últimas notícias</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body flex" >
+                            <article>
+                                <a href="">
+                                <div class="data">
+                                    <div class="postagem_at">03 MAR 21</div>
+                                    <div class="comentario">2</div>
+                                </div>
+                                <div class="foto">
+                                    <img src="imagens/dr.jpg" alt="doutor" title="doutor"/>
+                                </div>
+                                <div class="titulo">
+                                    Lorem ipsum dolor sit amet velum
+                                </div>
+                                <div class="resumo">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente quia nemo assumenda ipsa est totam repellendus sint necessitatibus saepe, eligendi obcaecati ea distinctio vitae architecto inventore quam aliquid corporis mollitia!
+                                </div>
+                                </a>
+                            </article>
+
+                            <article>
+                                <a href="">
+                                <div class="data">
+                                    <div class="postagem_at">03 FEV 21</div>
+                                    <div class="comentario">2</div>
+                                </div>
+                                <div class="foto">
+                                    <img src="imagens/dr.jpg" alt="doutor" title="doutor"/>
+                                </div>
+                                <div class="titulo">
+                                    Lorem ipsum dolor sit amet velum
+                                </div>
+                                <div class="resumo">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente quia nemo assumenda ipsa est totam repellendus sint necessitatibus saepe, eligendi obcaecati ea distinctio vitae architecto inventore quam aliquid corporis mollitia!
+                                </div>
+                                </a>
+                            </article>
+
+                            <article>
+                                <a href="">
+                                <div class="data">
+                                    <div class="postagem_at">30 DEZ 20</div>
+                                    <div class="comentario">2</div>
+                                </div>
+                                <div class="foto">
+                                    <img src="imagens/dr.jpg" alt="doutor" title="doutor"/>
+                                </div>
+                                <div class="titulo">
+                                    Lorem ipsum dolor sit amet velum
+                                </div>
+                                <div class="resumo">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente quia nemo assumenda ipsa est totam repellendus sint necessitatibus saepe, eligendi obcaecati ea distinctio vitae architecto inventore quam aliquid corporis mollitia!
+                                </div>
+                                </a>
+                            </article>
+
+                            <article>
+                                <a href="">
+                                <div class="data">
+                                    <div class="postagem_at">05 ABRIL 20</div>
+                                    <div class="comentario">2</div>
+                                </div>
+                                <div class="foto">
+                                    <img src="imagens/dr.jpg" alt="doutor" title="doutor"/>
+                                </div>
+                                <div class="titulo">
+                                    Lorem ipsum dolor sit amet velum
+                                </div>
+                                <div class="resumo">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente quia nemo assumenda ipsa est totam repellendus sint necessitatibus saepe, eligendi obcaecati ea distinctio vitae architecto inventore quam aliquid corporis mollitia!
+                                </div>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+                <aside>
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Departamentos</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="departament">
+                                <a href=""><div class="departaments-impar"></div></a>
+                                <a href=""><div class="departaments-par"></div></a>
+                                <a href=""><div class="departaments-impar"></div></a>
+                                <a href=""><div class="departaments-par"></div></a>
+                                <a href=""><div class="departaments-impar"></div></a>
+                                <a href=""><div class="departaments-par"></div></a>
+                       </div>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Marque uma consulta</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_title_body">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            <div class="links">
+                               
+                                <div class="info"> <img src="imagens/phone.png" alt="telefone" title="telefone">por telefone: <strong> (11) 98182-5560</strong></div>
+                                <div class="info"> <img src="imagens/email.png" alt="email" title="email"> por e-mail: <a href="" class="mudar">medicenter@mail.com</a></div>
+                                <div class="info border_b"> <img src="imagens/form.jpg" alt="formulário" title="formulário"> Ou<a href="" class="mudar">preencher o formulário</a> </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+        <!--- Fim do site-->
+        <footer>
+            <div class="container flex_column">
+                <div class="banner_footer">
+                    <div class="banner1">
+                        <div class="banner_title">Plano de saúde</div>
+                        <div class="banner_desc">Aqui no medicenter temos</div>
+                    </div>
+                    <div class="banner2">
+                        <div class="banner_title">Registros médicos</div>
+                        <div class="banner_desc">Aqui no medicenter temos</div>
+                    </div>
+                    <div class="banner3">
+                        <div class="banner_title">Contas Online</div>
+                        <div class="banner_desc">Aqui no medicenter temos</div>
+                    </div>
+                </div>
+                <div class="footer_area">
+                    <div class="areaitem">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <h1>Clínica Medicenter</h1>
+                                <div class="widget_title_bar"></div>
+                            </div>
+                            <div class="widget_title_body">
+                               <div class="widget_footer_body_content">
+                                   <div class="hosp">
+                                        <div class="description">
+                                            <p>Maurius adipiscing mauris fringilla turpis interdum seed pulvinar nisi malesuada.</p>
+                                        </div>
+                                        <div class="data_medicenter">
+                                            <div class="addres">
+                                               <p>Medicenter Clinic</p>
+                                               <p>Avenida dos Bandeirantes</p>
+                                               <p>São Paulo 3033, Brasil</p>
+                                            </div>
+                                            <div class="email_phone">
+                                               <p>+55 (11) 99660-5849</p>
+                                               <p>+55 (11) 99612-5549</p>
+                                               <p class="white">centermedi@mail.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="social_media">
+                                            <a href="https://www.facebook.com/" target="_blank" class="face"><img src="imagens/face.jpg" alt="facebook" title="facebook"></a>
+                                            <a href="https://twitter.com/login?lang=pt" target="_blank" class="face"><img src="imagens/twitter.jpg" alt="twitter" title="twitter"></a>
+                                            <a href="https://www.google.com/intl/pt-BR/calendar/about/" target="_blank" class="face"><img src="imagens/agenda.jpg" alt="agenda" title="agenda"></a>
+                                             <a href="https://www.google.com/intl/pt-BR/gmail/about/" target="_blank" class="face"><img src="imagens/mail.jpg" alt="mail" title="mail"></a>
+                                            </a>
+                                        </div>
+                                   </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="areaitem">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <h1>últimas postagens</h1>
+                                <div class="widget_title_bar"></div>
+                            </div>
+                            <div class="widget_title_body">
+                               <div class="widget_footer_body_content">
+                                    <div class="latest_post">
+                                        <div class="post">
+                                            <p>Maurius adipiscing mauris fringilla turpis interdum seed pulvinar nisi malesuada.</p>
+                                            <span class="date_post">3 semanas atrás</span>
+                                        </div>
+                                        <div class="post">
+                                            <p>Maurius adipiscing mauris fringilla.</p>
+                                            <span class="date_post">7 dias atrás</span>
+                                        </div>
+                                        <div class="post">
+                                            <p>Maurius adipiscing mauris fringilla turpis interdum seed pulvinar nisi malesuada.</p>
+                                            <span class="date_post">6 meses atrás</span>
+                                        </div>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="areaitem">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <h1>Últimos Tweets</h1>
+                                <div class="widget_title_bar"></div>
+                            </div>
+                            <div class="widget_title_body">
+                               <div class="widget_footer_body_content">
+                                    <div class="footer_news">
+                                        <div class="ft_news">
+                                            <p>We've released new version (v1.2) of our #CleanMate #Cleaning Company #Maid #Gardening #WordPress Theme. Please che... <span>t.co/tYVkhmpb30</span></p>
+                                            <span class="date_post">5 dias atrás</span>
+                                        </div>
+                                        <div class="ft_news">
+                                            <p>We've released new version (v1.2) of our #CleanMate #Cleaning Company #Maid #Gardening #WordPress Theme. Please che... <span>t.co/tYVkhmpb30</span></p>
+                                            <span class="date_post">10 dias atrás</span>
+                                        </div>
+                                        <div class="ft_news">
+                                            <p>We've released new version (v1.2) of our #CleanMate #Cleaning Company #Maid #Gardening #WordPress Theme. Please che... <span>t.co/tYVkhmpb30</span></p>
+                                            <span class="date_post">1 mês atrás</span>
+                                        </div>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_copy">
+                    © Copyright - Todos os direitos reservados
+                </div>         
+            </div>
+        </footer>
+        <!-- END FOOTER -->
+    </body>
+</html>
